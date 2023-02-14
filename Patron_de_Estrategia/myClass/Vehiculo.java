@@ -16,6 +16,10 @@ public abstract class Vehiculo {
         this.nombre = nombre;
     }
 
+    public void setVelocidad(Velocidad velocidad) {
+        this.velocidad = velocidad;
+    }
+
     /**
      * Este metodo remplaza el arranque con un nuevo arranque
      * @param arranque
