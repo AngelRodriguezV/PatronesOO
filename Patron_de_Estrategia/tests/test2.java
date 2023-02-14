@@ -9,12 +9,17 @@ import Patron_de_Estrategia.myClass.*;
  */
 public class test2 {
 
+    public void run_test() {
+        Vehiculo v2 = new AutomovilAutomatico("lamborghini");
+
+        System.out.print(v2.arrancar());
+    }
+    
     /**
      * Ejecucion de la prueba
      */
     public static void main(String[] args) {
-        Vehiculo v2 = new AutomovilAutomatico(0);
-
-        System.out.print(v2.arrancar());
+        test2 test = new test2();
+        test.run_test();
     }
 }

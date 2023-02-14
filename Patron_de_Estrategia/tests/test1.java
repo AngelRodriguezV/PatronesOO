@@ -8,12 +8,17 @@ import Patron_de_Estrategia.myClass.*;
  */
 public class test1 {
 
+    public void run_test() {
+        Vehiculo v1 = new AutomovilManual("Suru Tuneado");
+
+        System.out.print(v1.arrancar());
+    }
+
     /**
      * Ejecucion de la prueba
      */
     public static void main(String[] args) {
-        Vehiculo v1 = new AutomovilManual(0);
-
-        System.out.print(v1.arrancar());
+        test1 test = new test1();
+        test.run_test();
     }
 }
