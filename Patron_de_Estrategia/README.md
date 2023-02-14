@@ -1,0 +1,7 @@
+
+# Patron Estrategia
+
+## Ejemplo del patron estrategia
+
+
+![mi uml](http://plantuml.com:80/plantuml/svg/ZP11IyD048Nlyolcg9I0vr9AWtZm80W5xzFDq0vkTkjajWTZ_xjsatGLedZRVFDcyjxRT4PggVNGlKeuabABpbFNrMOgksJyw6BOoZlZ7PYOPtmcqnYmONpeJCbuBmH0kyk7CtpXWxZa8wvMzSZMwnuG4IjffkaI9TW0IPN2M-8brkChyqNcZlJcTebRKmdxWNTizx4zHZLgXOF5Y-0KfO4pGFQETRBOnfFuBuSK6bBiOMQQ7sJYuZ0l8IOdCo4M_QGwuup5yfVnn1E5H1x7vVzi55j_RrsRZjMwT5VmwgEgviBEAqfP02L-5ln8yilmstauICDuxTA9Eiy3p44dik7GfDP_0W00)
