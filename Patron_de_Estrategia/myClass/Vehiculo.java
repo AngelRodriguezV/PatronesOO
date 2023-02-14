@@ -4,15 +4,16 @@ package Patron_de_Estrategia.myClass;
  * Clase Abstracta para Vehiculos, funge como contexto
 */
 public abstract class Vehiculo {
-    protected int idVehiculo;
+    protected String nombre;
     protected Arranque arranque;
+    protected Velocidad velocidad;
 
     /**
      * Metodo constructor
      * @param idVehiculo
      */
-    public Vehiculo(int idVehiculo) {
-        this.idVehiculo = idVehiculo;
+    public Vehiculo(String nombre) {
+        this.nombre = nombre;
     }
 
     /**
@@ -30,4 +31,12 @@ public abstract class Vehiculo {
     public String arrancar() {
         return arranque.arrancar();
     } 
+
+    /**
+     *  Este metodo calcula la velocidad del vehiculo
+     * @return Regresa el resultado de calcular la velocidad
+     */
+    public double calVelocidad() {
+        return velocidad.calcularVelocidad();
+    }
 }

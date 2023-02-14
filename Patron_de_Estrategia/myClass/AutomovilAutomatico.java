@@ -7,10 +7,10 @@ public class AutomovilAutomatico extends Vehiculo {
 
     /**
      * Metodo constructor 
-     * @param idVeh
+     * @param nombre
      */
-    public AutomovilAutomatico(int idVeh) {
-        super(idVeh);
+    public AutomovilAutomatico(String nombre) {
+        super(nombre);
         super.arranque = new ArranqueAutomatico();
     }
 

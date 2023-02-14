@@ -1,16 +1,14 @@
 package Patron_de_Estrategia.myClass;
 
 /**
- * Clase abstracta para la Estrategia Arranque
+ * Interface para la Estrategia Arranque
  */
-public abstract class Arranque {
+public interface Arranque {
 
     /**
-     * Este metodo arranca un Vehiculo
-     * @return Regresa una cadena del arranque
+     * Metodo para arrancar vehiculo
+     * @return
      */
-    public String arrancar() {
-        return "arranca el vehiculo";
-    }
+    public String arrancar();
 
 }

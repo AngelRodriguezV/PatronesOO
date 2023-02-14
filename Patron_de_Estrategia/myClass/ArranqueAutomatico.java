@@ -3,7 +3,7 @@ package Patron_de_Estrategia.myClass;
 /** 
  * Clase para la Estrategia del Arranque Automatico
  */
-public class ArranqueAutomatico extends Arranque {
+public class ArranqueAutomatico implements Arranque {
 
     @Override
     public String arrancar() {
